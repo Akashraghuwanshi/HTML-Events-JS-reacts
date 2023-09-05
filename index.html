@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS reacts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+    <h1>😀click on everything that you see man🤣 </h1>
+    <h1 onclick="this.innerHTML = '🤦‍♂️OOps!something went wrong🙆‍♂️!'">click on me!</h1>
+
+    <!-- <h3>In this example, a function is called from the event handler:</h3> -->
+    <h1 onclick="change(this)">click me to make a change!</h1>
+
+    <button class="btn btn-primary" onclick="displayDate()">Click here to check out <b>Indian standard time!</b></button>
+    <h2 id="demo"></h2>
+    <button class="btn btn-secondary" onclick="digitalDate()">Click Me to check out date!</button>
+    <h1 id="date"></h1>
+    <h1 id="digitalWatch"></h1>
+    <button class="btn btn-warning" onclick="stop()">Stop the Timer!</button>
+<br>
+<h1>Assigning events using HTML-DOM</h1>
+
+<button class="btn btn-danger" id="myBtn">Try it</button>
+<h2 id="show"></h2>
+<h1 onclick="this.innerHTML=new Date()">Click me to check date!</h1>
+<br><br>
+<h1>The page is showing: <b>grey,yellow,pink,red in order!</b></h1>
+</div>  
+</body>
+</html>
